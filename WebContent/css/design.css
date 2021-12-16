@@ -1,0 +1,159 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+#entete, #menu, #pied, #corps
+{
+    width: 100%;
+    margin: 0px;
+    /*overflow: hidden;*/
+}
+#entete, #menu, #pied, #menu li a
+{
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+#entete
+{
+    position: absolute;
+    height: 11%;
+    left: 0px;
+    top: 0px;
+    padding: 10px;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: "Agency FB";
+}
+#menu
+{
+    position: absolute;
+    height: 6%;
+    left: 0px;
+    top: 11%;
+    border-top: solid 2px white;
+}
+#menu ul
+{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    margin: 0px;
+}
+#menu li
+{
+    display: inline-block;
+    border-left: solid 2px white;
+    padding: 10px;
+    height: 100%;
+}
+#menu li:last-child
+{
+    border-right: solid 2px white;
+}
+#menu li a
+{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+#corps
+{
+    position: absolute;
+    height: 80%;
+    left: 0px;
+    top: 17%;
+    padding: 0px 5px;
+    overflow: auto;
+    /*border: solid 2px;*/
+}
+#pied
+{
+    position: absolute;
+    height: 6%;
+    left: 0px;
+    top: 95%;
+    padding-top: 5px;
+}
+#titre-principal
+{
+    text-align: center;
+    font-family: "Agency FB";
+}
+table,th,td
+{
+    border: solid 1px;
+    padding: 5px;
+}
+tr:first-child
+{
+    border: solid 1px green;
+    color: white;
+    background-color: black;
+}
+table
+{
+    width: fit-content;
+    margin: auto;
+    border-collapse: collapse;
+}
+form
+{
+    width: 50%;
+    margin: auto;
+}
+.formItem
+{
+    text-align: center;
+}
+.formItem label
+{
+    margin: 15px;
+    display: inline-block;
+    width: 15%;
+    text-align: right;
+    /*font-weight: bold;*/
+    font-size: 1.2em;
+}
+.formItem input
+{
+    height: 25px;
+    border-color: grey;
+    padding: 2px;
+    border-radius: 10px;
+}
+.formItem input[type="submit"]
+{
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    border: double 3px grey;
+    border-radius: 10px;
+}
+form
+{
+    padding: 10px;
+    border-radius: 20px;
+    border: outset 2px grey;
+}
+.messageBox
+{
+    /*margin-left: 25%;*/
+    width: 50%;
+    margin: auto;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 1.2em;
+}
+.succes
+{
+    color: green;
+}
+.erreur
+{
+    color: red;
+}
